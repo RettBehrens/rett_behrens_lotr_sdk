@@ -11,7 +11,7 @@ const lotr = require('rett_behrens_lotr_sdk');
     const movies = await moviesAPI.getMovies();
     console.log(movies.body.docs);
 
-    // quotes will only work for the LotR trilog, so we're filtering here
+    // quotes will only work for the LotR trilogy, so we're filtering here
     const movieId = movies.body.docs.filter(movie => movie.name == 'The Fellowship of the Ring')[0].id;
     console.log(movieId);
 

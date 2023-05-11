@@ -32,6 +32,8 @@ paths:
               examples:
                 movies:
                   $ref: '#/components/examples/moviesExample'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
   /movie/{id}:
     get:
       tags:
@@ -58,6 +60,8 @@ paths:
               examples:
                 movies:
                   $ref: '#/components/examples/movieExample'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
   /movie/{id}/quote:
     get:
       tags:
@@ -85,6 +89,8 @@ paths:
               examples:
                 movies:
                   $ref: '#/components/examples/quotesExample'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
   /quote:
     get:
       tags:
@@ -109,6 +115,8 @@ paths:
               examples:
                 movies:
                   $ref: '#/components/examples/quotesExample'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
   /quote/{id}:
     get:
       tags:
@@ -135,8 +143,24 @@ paths:
               examples:
                 movies:
                   $ref: '#/components/examples/quoteExample'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
 components:
+  responses:
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
   schemas:
+    Error:
+      type: object
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
     Response:
       type: object
       properties:

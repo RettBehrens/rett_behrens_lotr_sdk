@@ -8,6 +8,7 @@ model/getMovies200Response.ts
 model/getMovies200ResponseAllOf.ts
 model/getQuotesByMovieId200Response.ts
 model/getQuotesByMovieId200ResponseAllOf.ts
+model/modelError.ts
 model/models.ts
 model/movie.ts
 model/quote.ts

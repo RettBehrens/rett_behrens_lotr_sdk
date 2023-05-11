@@ -4,6 +4,7 @@ export * from './getMovies200Response';
 export * from './getMovies200ResponseAllOf';
 export * from './getQuotesByMovieId200Response';
 export * from './getQuotesByMovieId200ResponseAllOf';
+export * from './modelError';
 export * from './movie';
 export * from './quote';
 export * from './response';
@@ -25,6 +26,7 @@ import { GetMovies200Response } from './getMovies200Response';
 import { GetMovies200ResponseAllOf } from './getMovies200ResponseAllOf';
 import { GetQuotesByMovieId200Response } from './getQuotesByMovieId200Response';
 import { GetQuotesByMovieId200ResponseAllOf } from './getQuotesByMovieId200ResponseAllOf';
+import { ModelError } from './modelError';
 import { Movie } from './movie';
 import { Quote } from './quote';
 import { Response } from './response';
@@ -49,6 +51,7 @@ let typeMap: {[index: string]: any} = {
     "GetMovies200ResponseAllOf": GetMovies200ResponseAllOf,
     "GetQuotesByMovieId200Response": GetQuotesByMovieId200Response,
     "GetQuotesByMovieId200ResponseAllOf": GetQuotesByMovieId200ResponseAllOf,
+    "ModelError": ModelError,
     "Movie": Movie,
     "Quote": Quote,
     "Response": Response,

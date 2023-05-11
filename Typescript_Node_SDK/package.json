@@ -1,5 +1,5 @@
 {
-  "name": "rett_behrens_lotr_sdk",
+  "name": "rett-behrens-lotr-sdk",
   "version": "0.1.0",
   "description": "One API to rule them all - LibLab take home project - The Lord of the Rings SDK - NodeJS client",
   "main": "dist/api.js",
