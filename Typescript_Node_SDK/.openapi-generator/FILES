@@ -1,0 +1,14 @@
+.gitignore
+api.ts
+api/apis.ts
+api/moviesApi.ts
+api/quotesApi.ts
+git_push.sh
+model/getMovies200Response.ts
+model/getMovies200ResponseAllOf.ts
+model/getQuotesByMovieId200Response.ts
+model/getQuotesByMovieId200ResponseAllOf.ts
+model/models.ts
+model/movie.ts
+model/quote.ts
+model/response.ts

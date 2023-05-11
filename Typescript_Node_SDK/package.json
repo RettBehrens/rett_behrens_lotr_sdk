@@ -1,0 +1,28 @@
+{
+  "name": "rett_behrens_lotr_sdk",
+  "version": "0.1.0",
+  "description": "One API to rule them all - LibLab take home project - The Lord of the Rings SDK - NodeJS client",
+  "main": "dist/api.js",
+  "types": "dist/api.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RettBehrens/rett_behrens_lotr_sdk.git"
+  },
+  "author": "Rett Behrens",
+  "bugs": {
+    "url": "https://github.com/RettBehrens/rett_behrens_lotr_sdk/issues"
+  },
+  "homepage": "https://github.com/RettBehrens/rett_behrens_lotr_sdk#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "@types/request": "^2.48.8",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}

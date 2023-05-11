@@ -1,0 +1,9 @@
+node_modules
+/api
+/model
+.*
+*.tgz
+api.ts
+git_push.sh
+openapitools.json
+tsconfig.json

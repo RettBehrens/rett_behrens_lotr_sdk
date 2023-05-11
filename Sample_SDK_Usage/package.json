@@ -1,0 +1,15 @@
+{
+  "name": "rett_behrens_lotr_sdk_sample_usage_script",
+  "version": "0.1.0",
+  "description": "A simple script file using the LOTR SDK for demonstration purposes",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rett Behrens",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "rett_behrens_lotr_sdk": "/Users/rettbehrens/Desktop/rett_behrens_lotr_sdk/Typescript_Node_SDK/rett_behrens_lotr_sdk-0.1.0.tgz"
+  }
+}
