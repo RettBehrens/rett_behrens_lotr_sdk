@@ -1,5 +1,5 @@
 require('dotenv').config()
-const lotr = require('rett_behrens_lotr_sdk');
+const lotr = require('rett-behrens-lotr-sdk');
 
 (async () => {
     const moviesAPI = new lotr.MoviesApi()
