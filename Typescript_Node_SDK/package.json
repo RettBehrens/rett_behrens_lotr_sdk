@@ -6,7 +6,8 @@
   "types": "dist/api.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-movie-api": "npm run build && node dist/api/tests/moviesApiTest.js",
+    "test-quote-api": "npm run build && node dist/api/tests/quotesApiTest.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "request": "^2.88.2"
+    "dotenv": "^16.0.3",
+    "request": "^2.88.2",
+    "rewire": "^6.0.0"
   }
 }
